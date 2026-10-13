@@ -134,7 +134,7 @@ export function BookingPage() {
       </PageHeader>
 
       <div className="container section booking-layout">
-        <form className="booking-form" onSubmit={submit}>
+        <form id="booking-form" className="booking-form" onSubmit={submit}>
           <fieldset>
             <legend>1. Your stay</legend>
             <div className="form-row">
